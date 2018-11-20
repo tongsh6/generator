@@ -23,7 +23,7 @@ function generatorBusLicenseNum(){
 			p[i + 1] = (s[i] % m) * 2;
 		}
 	}
-	$("#busLicenseNum").val(temp+s[14]);
+	$("#busLicenseNum").val(temp+s[s.length-1]);
 }
 
 /**
